@@ -112,7 +112,7 @@ ggplot(data = HFS.Ethnic_Identity.cleaned, aes(ethnic_identity,facility)) +
 
 
 
-| ![Faceted Plot](https://github.com/Rsilva68/Assignment1/blob/main/Faceted%20Plot.png)
+| ![Faceted Plot](https://github.com/Rsilva68/Project-for-Data-to-Decisions/blob/master/Faceted.jpeg)
 | -
 I have divided the plot using the ethnic_identity of the clients. This plot uses two variables Ethnic Identity and Facility. We can say from the plot that due to uncollected data or unknown/missing values there are more separations in the plot. However , with the data in hand, the created plot shows the differences of programs being served from the various facilities accross various ethnicities.
 
@@ -124,7 +124,7 @@ ggplot(data = HFS.Ethnic_Identity.cleaned)+
     geom_bar(mapping = aes(x=ethnic_identity),colour="white",fill="blue")+
     labs(title = "One bar chart of Ethnic Identity", y = "Count of Clients of Each Ethnicity", x = "Client Ethnicity")
 ```
-| ![Bar Chart](https://github.com/Rsilva68/Assignment1/blob/main/Bar%20Chart.png)
+| ![Bar Chart](https://github.com/Rsilva68/Project-for-Data-to-Decisions/blob/master/Bar_Chart.jpeg)
 | -
 This Bar chart is composed of only the Ethnicity of the Client of HFS. It shows how many clients are in each ethnicity group. The charts shows that most clients of HFS are Not Latino. Also we can observe that out of almost 8000 clients approximately 400 clients are Other Latino or Unknown 
 
