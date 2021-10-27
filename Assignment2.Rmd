@@ -95,7 +95,7 @@ HFS.Hispanic.newID[HFS.Hispanic.newID=="Not Spanish/Hispanic/Latino"]<-"Not Lati
 ggplot(data = HFS.Hispanic.newID, aes(x=newID , y =program_unit_description , colour=program_name)) +geom_point(size = 3)+
      labs(title = "Scatter plot with three variables", y = "Unit Description of the Program", x = "Ethnicity")
 ```
-| ![Scatter Plot](https://github.com/Rsilva68/Assignment1/blob/main/Scatter%20Plot.png)
+| ![Scatter Plot](https://github.com/Rsilva68/Project-for-Data-to-Decisions/blob/master/Scatter_Plot.jpeg)
 | -
 The above scatter plot is composed of three variables: ethnic_identity, program_unit description and program_name. from this plot , we can say that people have mostly participated in the mental health program. The second major program is for the substance use program. The plot also describes that NON HISPANIC clients are most likely  to be treated in the programs.
 
